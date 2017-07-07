@@ -1,6 +1,6 @@
 # REST: Reliable estimation and stopping time algorithm
 
-Experiment can be expensive. That’s why we need to estimate the length of the experiment to achieve a certain accuracy. This is MATLAB implementation of the reliable estimation and stopping time (REST) algorithm. Given the precision and confidence requirements, it produces a statistically guaranteed stopping time, so it is easier to manage resources and project budget.
+Experiment can be expensive. That’s why we need to determine the duration of the experiment ahead of time. This is MATLAB implementation of the reliable estimation and stopping time (REST) algorithm. Given the precision and confidence requirements, it produces a statistically guaranteed stopping time, so it is easier to manage resources and project budget.
 
 Feel free to use it! Please contact [Ming Jin](http://www.jinming.tech/) for any enquiries.
 
