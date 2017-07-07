@@ -1,4 +1,4 @@
-# REST: Reliable estimation and stopping time algorithm for social game experiments 
+# REST: Reliable estimation and stopping time algorithm
 
 Experiment can be expensive. That’s why we need to estimate the length of the experiment to achieve a certain accuracy. This is MATLAB implementation of the reliable estimation and stopping time (REST) algorithm. Given the precision and confidence requirements, it produces a statistically guaranteed stopping time, so it is easier to manage resources and project budget.
 
@@ -20,7 +20,11 @@ More details about the experiment:
 * The performance of our system is given by the mean absolute error: 1/n\sum_{i=1}^n abs(estimated_occupancy-true_occupancy)
 
 #### Conclusion
-To achieve an error bound of our estimate of performance to be less than 0.2 (fractional person) with probabily > 99% requires about 60 days, according to both methods, i.e., P(|our estiamted performance - true performance|<eps)>delta, for t>60days where eps = 0.2, delta = 0.99
+To achieve an error bound of our estimate of performance to be less than 0.2 (fractional person) with probabily > 99% requires about 60 days, according to both methods, i.e., 
+
+P(|our estiamted performance - true performance|<eps)>delta, for t>60days,
+
+where eps = 0.2, delta = 0.99
 
 
 ## Reference
