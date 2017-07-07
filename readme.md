@@ -1,4 +1,4 @@
-# REST: Reliable estimation and stopping time algorithm
+# REST: Reliable estimation of stopping time algorithm
 
 Experiment can be expensive. That’s why we need to determine the duration of the experiment ahead of time. This is MATLAB implementation of the reliable estimation and stopping time (REST) algorithm. Given the precision and confidence requirements, it produces a statistically guaranteed stopping time, so it is easier to manage resources and project budget.
 
@@ -30,4 +30,4 @@ where eps = 0.2, delta = 0.99
 ## Reference
 
 Ming Jin, Lillian Ratliff, Ioannis Konstantakopoulos, Costas Spanos, and Shankar Sastry, 
-"Reliable estimation and stopping time algorithm for social game experiments", ACM/IEEE ICCPS (2015) ([paper](http://www.jinming.tech/papers/rest.pdf))
+"REST: Reliable estimation of stopping time algorithm for social game experiments", ACM/IEEE ICCPS (2015) ([paper](http://www.jinming.tech/papers/rest.pdf))
